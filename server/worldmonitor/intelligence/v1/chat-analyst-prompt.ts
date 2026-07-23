@@ -9,10 +9,10 @@ const DOMAIN_EMPHASIS: Record<string, string> = {
 
 /** Context fields included per domain. 'all' includes everything. */
 const DOMAIN_SECTIONS: Record<string, Set<string>> = {
-  market:   new Set(['relevantArticles', 'marketData', 'macroSignals', 'marketImplications', 'predictionMarkets', 'forecasts', 'liveHeadlines']),
-  geo:      new Set(['relevantArticles', 'worldBrief', 'riskScores', 'forecasts', 'predictionMarkets', 'countryBrief', 'energyExposure', 'coalSpotPrice', 'gasSpotTtf', 'liveHeadlines', 'gasStorage', 'energyIntelligence', 'productSupply', 'gasFlows', 'electricityMix']),
-  military: new Set(['relevantArticles', 'worldBrief', 'riskScores', 'forecasts', 'countryBrief', 'liveHeadlines']),
-  economic: new Set(['relevantArticles', 'marketData', 'macroSignals', 'marketImplications', 'riskScores', 'energyExposure', 'coalSpotPrice', 'gasSpotTtf', 'liveHeadlines', 'gasStorage', 'electricityPrices', 'energyIntelligence', 'sprLevel', 'refineryUtil', 'productSupply', 'gasFlows', 'oilStocksCover', 'electricityMix']),
+  market:   new Set(['relevantArticles', 'marketData', 'macroSignals', 'marketImplications', 'predictionMarkets', 'forecasts', 'liveHeadlines', 'qualtronIntel']),
+  geo:      new Set(['relevantArticles', 'worldBrief', 'riskScores', 'forecasts', 'predictionMarkets', 'countryBrief', 'energyExposure', 'coalSpotPrice', 'gasSpotTtf', 'liveHeadlines', 'gasStorage', 'energyIntelligence', 'productSupply', 'gasFlows', 'electricityMix', 'qualtronIntel']),
+  military: new Set(['relevantArticles', 'worldBrief', 'riskScores', 'forecasts', 'countryBrief', 'liveHeadlines', 'qualtronIntel']),
+  economic: new Set(['relevantArticles', 'marketData', 'macroSignals', 'marketImplications', 'riskScores', 'energyExposure', 'coalSpotPrice', 'gasSpotTtf', 'liveHeadlines', 'gasStorage', 'electricityPrices', 'energyIntelligence', 'sprLevel', 'refineryUtil', 'productSupply', 'gasFlows', 'oilStocksCover', 'electricityMix', 'qualtronIntel']),
 };
 
 export function buildAnalystSystemPrompt(ctx: AnalystContext, domainFocus?: string): string {
@@ -74,6 +74,8 @@ export function buildAnalystSystemPrompt(ctx: AnalystContext, domainFocus?: stri
     contextSections.push(`## ${ctx.countryBrief}`);
   if (ctx.liveHeadlines && include('liveHeadlines'))
     contextSections.push(`## ${ctx.liveHeadlines}`);
+  if (ctx.qualtronIntel && include('qualtronIntel'))
+    contextSections.push(`## Qualtron Intelligence (internal analysis desk)\n${ctx.qualtronIntel}`);
 
   const liveContext = contextSections.length > 0
     ? contextSections.join('\n\n')

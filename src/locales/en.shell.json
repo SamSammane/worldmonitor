@@ -1,6 +1,6 @@
 {
   "shell": {
-    "documentTitle": "World Monitor — Real-Time Global Intelligence Dashboard",
+    "documentTitle": "World Monitor by Qualtron — Real-Time Global Intelligence Dashboard",
     "metaDescription": "Real-time global intelligence platform. Featured in WIRED. Used by 2M+ people across 190 countries. Conflicts, markets, military, OSINT in one view.",
     "offlineTitle": "You're Offline",
     "offlineMessage": "World Monitor requires an internet connection for real-time intelligence data.",
@@ -461,7 +461,7 @@
       "infoTooltip": "<strong>Central Bank Watch</strong> Latest statements, rate decisions, and communications from the Federal Reserve, ECB, Bank of England, and other major central banks worldwide."
     },
     "chatAnalyst": {
-      "infoTooltip": "<strong>WM Analyst</strong> AI analyst with live context across geopolitical, market, military, and economic domains. Powered by Claude with real-time data injected from active WorldMonitor feeds."
+      "infoTooltip": "<strong>Qulatron</strong> AI analyst with live context across geopolitical, market, military, and economic domains. Qualtron's AI, powered by real-time data injected from active WorldMonitor feeds."
     },
     "chokepointStrip": {
       "infoTooltip": "Live status for the seven global oil & gas shipping chokepoints. Flow estimates calibrated from Portwatch DWT + AIS observations. See /docs/methodology/chokepoints for methodology.",

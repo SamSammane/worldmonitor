@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "あなたの AI アナリスト。パーソナル・インテリジェンス・デスク。その上に構築できるプラットフォーム。30+ のライブサービスに 1 本の鍵。",
-    "proF1": "WM Analyst チャット — 30+ のサービスを会話形式で照会",
+    "proF1": "Qulatron チャット — 30+ のサービスを会話形式で照会",
     "proF2": "AI ダイジェスト — 日次、1日2回、または週次 — Slack、Discord、Telegram、メール、Webhook へ",
     "proF3": "カスタムウィジェットビルダー — HTML/CSS/JS を AI 支援で編集",
     "proF4": "MCP コネクタ — WorldMonitor を Claude、GPT、独自 LLM に接続",
@@ -60,7 +60,7 @@
     "noiseTitle": "一番に知る",
     "noiseDesc": "AIS 異常 → Brent の急騰 → あなたの Slack へ 1 分以内。見出しではなく、シグナル。",
     "fasterTitle": "何でも尋ねる",
-    "fasterDesc": "ダッシュボードと同じ 30+ のサービスとチャット。WM Analyst、常時稼働。",
+    "fasterDesc": "ダッシュボードと同じ 30+ のサービスとチャット。Qulatron、常時稼働。",
     "controlTitle": "何でも構築",
     "controlDesc": "カスタムウィジェットビルダー(HTML/CSS/JS + AI)と MCP で、独自の AI ワークフローを。",
     "deeperTitle": "目覚めれば事情通",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "尋ねる",
-    "askItDesc": "WM Analyst チャット。30+ のサービスすべてを自然言語で照会。",
+    "askItDesc": "Qulatron チャット。30+ のサービスすべてを自然言語で照会。",
     "subscribeIt": "購読する",
     "subscribeItDesc": "AI ダイジェストをご希望のリズムで: 日次、1日2回、または週次。Slack、Discord、Telegram、メール、Webhook。",
     "buildOnIt": "その上に構築",
@@ -337,9 +337,9 @@
   "soonBadge": "近日公開",
   "meta": {
     "title": "World Monitor Pro — AI Analyst、パーソナルインテリジェンスデスク、Claude & GPT用MCP",
-    "description": "地政学的AIレイヤー。質問して、購読して、構築して。WM Analyst チャット（30以上のライブサービス対応）、AI ダイジェスト（毎日、1日2回、または週1回の配信）を Slack、Discord、Telegram、Email、またはウェブフックで受信、カスタムウィジェットビルダー（HTML/CSS/JS + AI）、および Claude、GPT、カスタム LLM 用の MCP コネクタ。",
+    "description": "地政学的AIレイヤー。質問して、購読して、構築して。Qulatron チャット（30以上のライブサービス対応）、AI ダイジェスト（毎日、1日2回、または週1回の配信）を Slack、Discord、Telegram、Email、またはウェブフックで受信、カスタムウィジェットビルダー（HTML/CSS/JS + AI）、および Claude、GPT、カスタム LLM 用の MCP コネクタ。",
     "ogTitle": "World Monitor Pro — 地政学的AIレイヤー",
-    "ogDescription": "質問して、購読して、構築して。WM Analyst チャット、AI ダイジェスト（毎日、1日2回、または週1回のスケジュール配信）、カスタムウィジェットビルダー、および Claude/GPT 用 MCP — 1つのキーで30以上のライブサービスに対応。"
+    "ogDescription": "質問して、購読して、構築して。Qulatron チャット、AI ダイジェスト（毎日、1日2回、または週1回のスケジュール配信）、カスタムウィジェットビルダー、および Claude/GPT 用 MCP — 1つのキーで30以上のライブサービスに対応。"
   },
   "pricing": {
     "suffixForever": "永続",

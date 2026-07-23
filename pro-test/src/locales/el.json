@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "Ο αναλυτής AI σας. Ένα προσωπικό γραφείο intelligence. Μια πλατφόρμα πάνω στην οποία να χτίσετε. Ένα κλειδί για 30+ ζωντανές υπηρεσίες.",
-    "proF1": "Chat WM Analyst — ρωτήστε όλες τις 30+ υπηρεσίες συνομιλιακά",
+    "proF1": "Chat Qulatron — ρωτήστε όλες τις 30+ υπηρεσίες συνομιλιακά",
     "proF2": "AI digest — καθημερινά, δύο φορές την ημέρα ή εβδομαδιαία — σε Slack, Discord, Telegram, Email ή webhook",
     "proF3": "Custom Widget Builder — HTML/CSS/JS με τροποποίηση υποβοηθούμενη από AI",
     "proF4": "MCP connectors — συνδέστε το WorldMonitor στο Claude, GPT ή δικά σας LLM",
@@ -60,7 +60,7 @@
     "noiseTitle": "Μάθετε πρώτοι",
     "noiseDesc": "Ανωμαλία AIS → άλμα Brent → το Slack σας σε λιγότερο από ένα λεπτό. Σήμα, όχι τίτλοι.",
     "fasterTitle": "Ρωτήστε οτιδήποτε",
-    "fasterDesc": "Συνομιλήστε με τις ίδιες 30+ υπηρεσίες που βλέπει ο πίνακάς σας. WM Analyst, πάντα ενεργός.",
+    "fasterDesc": "Συνομιλήστε με τις ίδιες 30+ υπηρεσίες που βλέπει ο πίνακάς σας. Qulatron, πάντα ενεργός.",
     "controlTitle": "Χτίστε οτιδήποτε",
     "controlDesc": "Custom widget builder (HTML/CSS/JS + AI) συν MCP για τις δικές σας ροές AI.",
     "deeperTitle": "Ξυπνήστε ενημερωμένοι",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "Ρωτήστε το",
-    "askItDesc": "Chat WM Analyst. Όλες οι 30+ υπηρεσίες διαθέσιμες σε φυσική γλώσσα.",
+    "askItDesc": "Chat Qulatron. Όλες οι 30+ υπηρεσίες διαθέσιμες σε φυσική γλώσσα.",
     "subscribeIt": "Εγγραφείτε",
     "subscribeItDesc": "AI digest στον δικό σας ρυθμό: καθημερινά, δύο φορές την ημέρα ή εβδομαδιαία. Slack, Discord, Telegram, Email, webhook.",
     "buildOnIt": "Χτίστε πάνω του",
@@ -337,9 +337,9 @@
   "soonBadge": "Σύντομα",
   "meta": {
     "title": "World Monitor Pro — AI Analyst, Personal Intelligence Desk, MCP για Claude & GPT",
-    "description": "Το γεωπολιτικό στρώμα AI. Ρωτήστε το, εγγραφείτε σε αυτό, δημιουργήστε πάνω του. WM Analyst chat σε 30+ live services, ένα AI digest που παραδίδεται καθημερινά, δύο φορές την ημέρα ή εβδομαδιαία σε Slack, Discord, Telegram, Email ή webhook, ένα custom widget builder (HTML/CSS/JS + AI), και MCP connectors για Claude, GPT και custom LLMs.",
+    "description": "Το γεωπολιτικό στρώμα AI. Ρωτήστε το, εγγραφείτε σε αυτό, δημιουργήστε πάνω του. Qulatron chat σε 30+ live services, ένα AI digest που παραδίδεται καθημερινά, δύο φορές την ημέρα ή εβδομαδιαία σε Slack, Discord, Telegram, Email ή webhook, ένα custom widget builder (HTML/CSS/JS + AI), και MCP connectors για Claude, GPT και custom LLMs.",
     "ogTitle": "World Monitor Pro — Το Γεωπολιτικό Στρώμα AI",
-    "ogDescription": "Ρωτήστε το, εγγραφείτε σε αυτό, δημιουργήστε πάνω του. WM Analyst chat, ένα AI digest σύμφωνα με το πρόγραμμά σας (καθημερινά, δύο φορές την ημέρα ή εβδομαδιαία), custom widget builder και MCP για Claude/GPT — σε 30+ live services με ένα κλειδί."
+    "ogDescription": "Ρωτήστε το, εγγραφείτε σε αυτό, δημιουργήστε πάνω του. Qulatron chat, ένα AI digest σύμφωνα με το πρόγραμμά σας (καθημερινά, δύο φορές την ημέρα ή εβδομαδιαία), custom widget builder και MCP για Claude/GPT — σε 30+ live services με ένα κλειδί."
   },
   "pricing": {
     "suffixForever": "για πάντα",

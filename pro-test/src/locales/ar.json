@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "محللك المدعوم بالذكاء الاصطناعي. مكتب استخبارات شخصي. منصة تُبنى فوقها. مفتاح واحد إلى 30+ خدمة حية.",
-    "proF1": "محادثة WM Analyst — استعلم عن 30+ خدمة حوارياً",
+    "proF1": "محادثة Qulatron — استعلم عن 30+ خدمة حوارياً",
     "proF2": "موجز ذكاء اصطناعي — يومياً، مرتين يومياً أو أسبوعياً — إلى Slack، Discord، Telegram، البريد الإلكتروني أو webhook",
     "proF3": "Custom Widget Builder — HTML/CSS/JS مع تعديل بمساعدة الذكاء الاصطناعي",
     "proF4": "موصلات MCP — اربط WorldMonitor بـ Claude أو GPT أو نماذج LLM خاصة بك",
@@ -60,7 +60,7 @@
     "noiseTitle": "اعرف أولاً",
     "noiseDesc": "شذوذ AIS → قفزة في Brent → إلى Slack الخاص بك في أقل من دقيقة. إشارة، لا عناوين.",
     "fasterTitle": "اسأل أي شيء",
-    "fasterDesc": "حادث نفس الـ 30+ خدمة التي تراها لوحتك. WM Analyst، يعمل دائماً.",
+    "fasterDesc": "حادث نفس الـ 30+ خدمة التي تراها لوحتك. Qulatron، يعمل دائماً.",
     "controlTitle": "ابنِ أي شيء",
     "controlDesc": "Custom widget builder (HTML/CSS/JS + ذكاء اصطناعي) مع MCP لسير عمل الذكاء الاصطناعي الخاص بك.",
     "deeperTitle": "استيقظ مطّلعاً",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "اسألها",
-    "askItDesc": "محادثة WM Analyst. جميع الخدمات الـ 30+ قابلة للاستعلام باللغة الطبيعية.",
+    "askItDesc": "محادثة Qulatron. جميع الخدمات الـ 30+ قابلة للاستعلام باللغة الطبيعية.",
     "subscribeIt": "اشترك",
     "subscribeItDesc": "موجز ذكاء اصطناعي بإيقاعك: يومياً، مرتين يومياً أو أسبوعياً. Slack، Discord، Telegram، بريد إلكتروني، webhook.",
     "buildOnIt": "ابنِ فوقها",

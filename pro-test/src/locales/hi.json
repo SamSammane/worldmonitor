@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "आपका AI विश्लेषक। निजी इंटेलिजेंस डेस्क। वह प्लेटफ़ॉर्म जिस पर आप बना सकते हैं। 30+ लाइव सेवाओं के लिए एक ही कुंजी।",
-    "proF1": "WM Analyst chat — सभी 30+ सेवाओं से बातचीत की तरह पूछें",
+    "proF1": "Qulatron chat — सभी 30+ सेवाओं से बातचीत की तरह पूछें",
     "proF2": "AI digest — दैनिक, दिन में दो बार या साप्ताहिक — Slack, Discord, Telegram, ईमेल या webhook पर",
     "proF3": "Custom Widget Builder — AI-सहायता से बदलाव के साथ HTML/CSS/JS",
     "proF4": "MCP connectors — WorldMonitor को Claude, GPT या अपने LLMs से जोड़ें",
@@ -60,7 +60,7 @@
     "noiseTitle": "सबसे पहले जानें",
     "noiseDesc": "AIS anomaly → Brent spike → आपका Slack एक मिनट से कम में। Signal, headlines नहीं।",
     "fasterTitle": "कुछ भी पूछें",
-    "fasterDesc": "उन्हीं 30+ services से chat करें जिन्हें आपका dashboard देखता है। WM Analyst, हमेशा चालू।",
+    "fasterDesc": "उन्हीं 30+ services से chat करें जिन्हें आपका dashboard देखता है। Qulatron, हमेशा चालू।",
     "controlTitle": "कुछ भी बनाएं",
     "controlDesc": "Custom widget builder (HTML/CSS/JS + AI) और आपके अपने AI workflows के लिए MCP।",
     "deeperTitle": "जानकारी के साथ जागें",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "इससे पूछें",
-    "askItDesc": "WM Analyst chat. सभी 30+ services को plain English में query किया जा सकता है।",
+    "askItDesc": "Qulatron chat. सभी 30+ services को plain English में query किया जा सकता है।",
     "subscribeIt": "इसकी सदस्यता लें",
     "subscribeItDesc": "आपके schedule पर AI digest — daily, twice-daily या weekly. Slack, Discord, Telegram, Email, webhook.",
     "buildOnIt": "इस पर निर्माण करें",
@@ -337,9 +337,9 @@
   "soonBadge": "जल्द",
   "meta": {
     "title": "World Monitor Pro — AI Analyst, Personal Intelligence Desk, Claude और GPT के लिए MCP",
-    "description": "भू-राजनीतिक AI परत। इससे सवाल पूछें, इसकी सदस्यता लें, इस पर निर्माण करें। 30+ लाइव सेवाओं पर WM Analyst chat, Slack, Discord, Telegram, ईमेल या webhook पर दैनिक, दिन में दो बार या साप्ताहिक मिलने वाला AI डाइजेस्ट, custom widget builder (HTML/CSS/JS + AI), और Claude, GPT व custom LLMs के लिए MCP connectors.",
+    "description": "भू-राजनीतिक AI परत। इससे सवाल पूछें, इसकी सदस्यता लें, इस पर निर्माण करें। 30+ लाइव सेवाओं पर Qulatron chat, Slack, Discord, Telegram, ईमेल या webhook पर दैनिक, दिन में दो बार या साप्ताहिक मिलने वाला AI डाइजेस्ट, custom widget builder (HTML/CSS/JS + AI), और Claude, GPT व custom LLMs के लिए MCP connectors.",
     "ogTitle": "World Monitor Pro — Geopolitical AI Layer",
-    "ogDescription": "इससे सवाल पूछें, इसकी सदस्यता लें, इस पर निर्माण करें। WM Analyst chat, आपके schedule पर AI डाइजेस्ट (दैनिक, दिन में दो बार या साप्ताहिक), custom widget builder, और Claude/GPT के लिए MCP — 30+ लाइव सेवाएँ एक key के तहत।"
+    "ogDescription": "इससे सवाल पूछें, इसकी सदस्यता लें, इस पर निर्माण करें। Qulatron chat, आपके schedule पर AI डाइजेस्ट (दैनिक, दिन में दो बार या साप्ताहिक), custom widget builder, और Claude/GPT के लिए MCP — 30+ लाइव सेवाएँ एक key के तहत।"
   },
   "pricing": {
     "suffixForever": "हमेशा के लिए",

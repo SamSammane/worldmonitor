@@ -662,6 +662,14 @@ canvas,
   color: var(--accent);
 }
 
+.logo-emblem {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+
 .logo-mobile {
   display: none;
   font-weight: bold;

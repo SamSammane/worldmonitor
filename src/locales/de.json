@@ -1850,7 +1850,7 @@
       "tripDays": "Flugtage"
     },
     "chatAnalyst": {
-      "infoTooltip": "<strong>WM Analyst</strong> KI-Analyst mit Live-Kontext über geopolitische, Markt-, Militär- und Wirtschaftsbereiche. Betrieben durch Claude mit Echtzeitdaten aus aktiven WorldMonitor-Feeds."
+      "infoTooltip": "<strong>Qulatron</strong> KI-Analyst mit Live-Kontext über geopolitische, Markt-, Militär- und Wirtschaftsbereiche. Betrieben durch Qulatron mit Echtzeitdaten aus aktiven WorldMonitor-Feeds."
     },
     "cotPositioning": {
       "infoTooltip": "<strong>CFTC COT Positionierung</strong> Commitments of Traders-Bericht: Nettopositionen von Commercials, großen Spekulanten und kleinen Händlern in Rohstoff- und Finanz-Futures. Wöchentlich veröffentlicht (Freitag). Quelle: CFTC."

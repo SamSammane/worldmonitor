@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "Vaš AI analitičar. Osobni obavještajni desk. Platforma na kojoj možete graditi. Jedan ključ za 30+ servisa uživo.",
-    "proF1": "WM Analyst chat — razgovorno pretražujte svih 30+ servisa",
+    "proF1": "Qulatron chat — razgovorno pretražujte svih 30+ servisa",
     "proF2": "AI sažetak — dnevno, dvaput dnevno ili tjedno — putem Slacka, Discorda, Telegrama, e-pošte ili webhooka",
     "proF3": "Custom Widget Builder — HTML/CSS/JS uz izmjene potpomognute AI-jem",
     "proF4": "MCP konektori — povežite WorldMonitor s Claudeom, GPT-om ili vlastitim LLM-ovima",
@@ -60,7 +60,7 @@
     "noiseTitle": "Saznajte prvi",
     "noiseDesc": "AIS anomalija → skok Brenta → vaš Slack za manje od minute. Signal, ne naslovi.",
     "fasterTitle": "Pitajte bilo što",
-    "fasterDesc": "Razgovarajte s istih 30+ servisa koje vidi vaša nadzorna ploča. WM Analyst, uvijek uključen.",
+    "fasterDesc": "Razgovarajte s istih 30+ servisa koje vidi vaša nadzorna ploča. Qulatron, uvijek uključen.",
     "controlTitle": "Izgradite bilo što",
     "controlDesc": "Custom widget builder (HTML/CSS/JS + AI) i MCP za vaše vlastite AI radne tokove.",
     "deeperTitle": "Probudite se informirani",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "Pitajte ga",
-    "askItDesc": "WM Analyst chat. Svih 30+ servisa dostupno je upitima prirodnim jezikom.",
+    "askItDesc": "Qulatron chat. Svih 30+ servisa dostupno je upitima prirodnim jezikom.",
     "subscribeIt": "Pretplatite se",
     "subscribeItDesc": "AI sažetak prema vašem rasporedu — dnevno, dvaput dnevno ili tjedno. Slack, Discord, Telegram, e-pošta, webhook.",
     "buildOnIt": "Gradite na njemu",
@@ -337,9 +337,9 @@
   "soonBadge": "Uskoro",
   "meta": {
     "title": "World Monitor Pro — AI analitičar, osobni obavještajni desk, MCP za Claude i GPT",
-    "description": "Geopolitički AI sloj. Pitajte ga, pretplatite se, gradite na njemu. WM Analyst chat kroz 30+ servisa uživo, AI sažetak dostavljen dnevno, dvaput dnevno ili tjedno putem Slacka, Discorda, Telegrama, e-pošte ili webhooka, custom widget builder (HTML/CSS/JS + AI) i MCP konektori za Claude, GPT i vlastite LLM-ove.",
+    "description": "Geopolitički AI sloj. Pitajte ga, pretplatite se, gradite na njemu. Qulatron chat kroz 30+ servisa uživo, AI sažetak dostavljen dnevno, dvaput dnevno ili tjedno putem Slacka, Discorda, Telegrama, e-pošte ili webhooka, custom widget builder (HTML/CSS/JS + AI) i MCP konektori za Claude, GPT i vlastite LLM-ove.",
     "ogTitle": "World Monitor Pro — geopolitički AI sloj",
-    "ogDescription": "Pitajte ga, pretplatite se, gradite na njemu. WM Analyst chat, AI sažetak prema vašem rasporedu (dnevno, dvaput dnevno ili tjedno), custom widget builder i MCP za Claude/GPT — kroz 30+ servisa uživo pod jednim ključem."
+    "ogDescription": "Pitajte ga, pretplatite se, gradite na njemu. Qulatron chat, AI sažetak prema vašem rasporedu (dnevno, dvaput dnevno ili tjedno), custom widget builder i MCP za Claude/GPT — kroz 30+ servisa uživo pod jednim ključem."
   },
   "pricing": {
     "suffixForever": "zauvijek",

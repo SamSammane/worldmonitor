@@ -8,7 +8,7 @@ export const Logo = () => (
     </div>
     <div className="flex flex-col">
       <span className="font-display font-bold text-sm leading-none tracking-tight">WORLD MONITOR</span>
-      <span className="text-[9px] text-wm-muted font-mono uppercase tracking-widest leading-none mt-1">by Someone.ceo</span>
+      <span className="text-[9px] text-wm-muted font-mono uppercase tracking-widest leading-none mt-1">by Qualtron</span>
     </div>
   </a>
 );

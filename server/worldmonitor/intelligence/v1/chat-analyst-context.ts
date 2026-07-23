@@ -60,6 +60,7 @@ export interface AnalystContext {
   gasFlows?: string;
   oilStocksCover?: string;
   electricityMix?: string;
+  qualtronIntel?: string;
 }
 
 function safeStr(v: unknown): string {
@@ -765,6 +766,42 @@ async function searchDigestByKeywords(keywords: string[]): Promise<string> {
   return lines.join('\n');
 }
 
+// ── Qualtron Intelligence (internal generation daemon) ────────────────────────
+
+/**
+ * Latest artifacts from the qualtron-intelligence daemon, injected as one more
+ * context source. Entirely env-gated (QUALTRON_INTEL_URL) and fail-soft: any
+ * error or timeout just drops the section.
+ */
+async function buildQualtronIntel(): Promise<string | undefined> {
+  const base = (process.env.QUALTRON_INTEL_URL ?? '').replace(/\/+$/, '');
+  if (!base) return undefined;
+  try {
+    const headers: Record<string, string> = {};
+    const key = process.env.QUALTRON_INTEL_API_KEY;
+    if (key) headers.Authorization = `Bearer ${key}`;
+    const res = await fetch(`${base}/v1/content?limit=6`, {
+      headers,
+      signal: AbortSignal.timeout(2500),
+    });
+    if (!res.ok) return undefined;
+    const data = (await res.json()) as {
+      items?: Array<{ type?: string; title?: string; summary?: string; createdAt?: string }>;
+    };
+    const items = data.items ?? [];
+    if (items.length === 0) return undefined;
+    const lines = items.map((it) => {
+      const date = it.createdAt ? new Date(it.createdAt).toISOString().slice(0, 10) : '';
+      return sanitizeForPrompt(
+        `- [${it.type ?? 'analysis'}] ${it.title ?? ''} — ${(it.summary ?? '').slice(0, 220)}${date ? ` (${date})` : ''}`,
+      );
+    });
+    return lines.join('\n');
+  } catch {
+    return undefined;
+  }
+}
+
 // ── Source labels ─────────────────────────────────────────────────────────────
 
 const SOURCE_LABELS: Array<[keyof Omit<AnalystContext, 'timestamp' | 'degraded' | 'activeSources'>, string]> = [
@@ -790,6 +827,7 @@ const SOURCE_LABELS: Array<[keyof Omit<AnalystContext, 'timestamp' | 'degraded' 
   ['gasFlows', 'JODIGas'],
   ['oilStocksCover', 'IEAStocks'],
   ['electricityMix', 'ElecMix'],
+  ['qualtronIntel', 'Qualtron'],
 ];
 
 export async function assembleAnalystContext(
@@ -856,6 +894,7 @@ export async function assembleAnalystContext(
     gasFlowsResult,
     oilStocksCoverResult,
     electricityMixResult,
+    qualtronIntelResult,
   ] = await Promise.allSettled([
     getCachedJson(keys.insights, true),
     getCachedJson(keys.riskScores, true),
@@ -878,6 +917,7 @@ export async function assembleAnalystContext(
     needsGasFlows ? buildGasFlows(iso2!) : Promise.resolve(undefined),
     needsOilStocksCover ? buildOilStocksCover(iso2!) : Promise.resolve(undefined),
     needsElectricityMix ? buildElectricityMix(iso2!) : Promise.resolve(undefined),
+    buildQualtronIntel(),
   ]);
 
   const get = (r: PromiseSettledResult<unknown>) =>
@@ -926,6 +966,7 @@ export async function assembleAnalystContext(
     gasFlows: getOptStr(gasFlowsResult),
     oilStocksCover: getOptStr(oilStocksCoverResult),
     electricityMix: getOptStr(electricityMixResult),
+    qualtronIntel: getOptStr(qualtronIntelResult),
   };
 
   ctx.activeSources = SOURCE_LABELS

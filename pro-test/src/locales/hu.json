@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "Az Ön AI-elemzője. Személyes hírszerzési desk. Platform, amelyre építhet. Egy kulcs több mint 30 élő szolgáltatáshoz.",
-    "proF1": "WM Analyst chat — kérdezzen társalgási formában mind a 30+ szolgáltatástól",
+    "proF1": "Qulatron chat — kérdezzen társalgási formában mind a 30+ szolgáltatástól",
     "proF2": "AI digest — naponta, naponta kétszer vagy hetente — Slackre, Discordra, Telegramra, e-mailre vagy webhookra",
     "proF3": "Custom Widget Builder — HTML/CSS/JS AI-asszisztált módosítással",
     "proF4": "MCP-csatlakozók — kösse a WorldMonitort Claude-hoz, GPT-hez vagy saját LLM-ekhez",
@@ -60,7 +60,7 @@
     "noiseTitle": "Tudja meg elsőként",
     "noiseDesc": "AIS-anomália → Brent-ugrás → Slack-értesítés egy percen belül. Jel, nem címlapzaj.",
     "fasterTitle": "Kérdezzen bármit",
-    "fasterDesc": "Csevegjen ugyanazzal a 30+ szolgáltatással, amelyet az irányítópultja lát. WM Analyst, mindig bekapcsolva.",
+    "fasterDesc": "Csevegjen ugyanazzal a 30+ szolgáltatással, amelyet az irányítópultja lát. Qulatron, mindig bekapcsolva.",
     "controlTitle": "Építsen bármit",
     "controlDesc": "Custom widget builder (HTML/CSS/JS + AI) és MCP a saját AI-munkafolyamataihoz.",
     "deeperTitle": "Ébredjen tájékozottan",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "Kérdezze",
-    "askItDesc": "WM Analyst chat. Mind a 30+ szolgáltatás természetes nyelven lekérdezhető.",
+    "askItDesc": "Qulatron chat. Mind a 30+ szolgáltatás természetes nyelven lekérdezhető.",
     "subscribeIt": "Iratkozzon fel rá",
     "subscribeItDesc": "AI digest az Ön ütemezése szerint — naponta, naponta kétszer vagy hetente. Slack, Discord, Telegram, e-mail, webhook.",
     "buildOnIt": "Építsen rá",
@@ -337,9 +337,9 @@
   "soonBadge": "Hamarosan",
   "meta": {
     "title": "World Monitor Pro — AI-elemző, személyes hírszerzési desk, MCP Claude-hoz és GPT-hez",
-    "description": "A geopolitikai AI-réteg. Kérdezze, iratkozzon fel rá, építsen rá. WM Analyst chat 30+ élő szolgáltatáson át, AI digest napi, napi kétszeri vagy heti kézbesítéssel Slackre, Discordra, Telegramra, e-mailre vagy webhookra, custom widget builder (HTML/CSS/JS + AI) és MCP-csatlakozók Claude-hoz, GPT-hez és saját LLM-ekhez.",
+    "description": "A geopolitikai AI-réteg. Kérdezze, iratkozzon fel rá, építsen rá. Qulatron chat 30+ élő szolgáltatáson át, AI digest napi, napi kétszeri vagy heti kézbesítéssel Slackre, Discordra, Telegramra, e-mailre vagy webhookra, custom widget builder (HTML/CSS/JS + AI) és MCP-csatlakozók Claude-hoz, GPT-hez és saját LLM-ekhez.",
     "ogTitle": "World Monitor Pro — A geopolitikai AI-réteg",
-    "ogDescription": "Kérdezze, iratkozzon fel rá, építsen rá. WM Analyst chat, AI digest az Ön ütemezése szerint (napi, napi kétszeri vagy heti), custom widget builder és MCP Claude/GPT-hez — 30+ élő szolgáltatáson át, egy kulcs alatt."
+    "ogDescription": "Kérdezze, iratkozzon fel rá, építsen rá. Qulatron chat, AI digest az Ön ütemezése szerint (napi, napi kétszeri vagy heti), custom widget builder és MCP Claude/GPT-hez — 30+ élő szolgáltatáson át, egy kulcs alatt."
   },
   "pricing": {
     "suffixForever": "örökre",

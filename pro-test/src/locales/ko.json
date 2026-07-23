@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "당신의 AI 애널리스트. 개인 인텔리전스 데스크. 그 위에 쌓을 수 있는 플랫폼. 30+개 실시간 서비스를 하나의 키로.",
-    "proF1": "WM Analyst 채팅 — 30+개 서비스 대화형 질의",
+    "proF1": "Qulatron 채팅 — 30+개 서비스 대화형 질의",
     "proF2": "AI 다이제스트 — 매일, 하루 두 번 또는 매주 — Slack, Discord, Telegram, 이메일 또는 웹훅으로",
     "proF3": "커스텀 위젯 빌더 — HTML/CSS/JS에 AI 보조 수정",
     "proF4": "MCP 커넥터 — WorldMonitor를 Claude, GPT, 자체 LLM에 연결",
@@ -60,7 +60,7 @@
     "noiseTitle": "가장 먼저 알기",
     "noiseDesc": "AIS 이상 → Brent 급등 → 1분 이내 당신의 Slack. 시그널, 헤드라인이 아닙니다.",
     "fasterTitle": "무엇이든 질문",
-    "fasterDesc": "대시보드가 보는 동일한 30+개 서비스와 채팅. WM Analyst, 항상 가동.",
+    "fasterDesc": "대시보드가 보는 동일한 30+개 서비스와 채팅. Qulatron, 항상 가동.",
     "controlTitle": "무엇이든 구축",
     "controlDesc": "자체 AI 워크플로를 위한 커스텀 위젯 빌더 (HTML/CSS/JS + AI)와 MCP.",
     "deeperTitle": "정보를 가진 채 깨어나기",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "질문",
-    "askItDesc": "WM Analyst 채팅. 30+개 서비스 모두 자연어로 질의.",
+    "askItDesc": "Qulatron 채팅. 30+개 서비스 모두 자연어로 질의.",
     "subscribeIt": "구독",
     "subscribeItDesc": "AI 다이제스트를 원하는 주기로: 매일, 하루 두 번 또는 매주. Slack, Discord, Telegram, 이메일, 웹훅.",
     "buildOnIt": "그 위에 쌓기",
@@ -337,9 +337,9 @@
   "soonBadge": "출시 예정",
   "meta": {
     "title": "World Monitor Pro — AI 분석가, 개인 인텔리전스 데스크, Claude & GPT용 MCP",
-    "description": "지정학적 AI 레이어. 질문하고, 구독하고, 구축하세요. WM Analyst 채팅(30개 이상의 라이브 서비스), 일일/주 2회/주간 AI 다이제스트(Slack, Discord, Telegram, Email, webhook 배송), 커스텀 위젯 빌더(HTML/CSS/JS + AI), Claude/GPT/커스텀 LLM용 MCP 커넥터.",
+    "description": "지정학적 AI 레이어. 질문하고, 구독하고, 구축하세요. Qulatron 채팅(30개 이상의 라이브 서비스), 일일/주 2회/주간 AI 다이제스트(Slack, Discord, Telegram, Email, webhook 배송), 커스텀 위젯 빌더(HTML/CSS/JS + AI), Claude/GPT/커스텀 LLM용 MCP 커넥터.",
     "ogTitle": "World Monitor Pro — 지정학적 AI 레이어",
-    "ogDescription": "질문하고, 구독하고, 구축하세요. WM Analyst 채팅, 맞춤형 AI 다이제스트(일일/주 2회/주간), 커스텀 위젯 빌더, Claude/GPT용 MCP — 하나의 키로 30개 이상의 라이브 서비스 통합."
+    "ogDescription": "질문하고, 구독하고, 구축하세요. Qulatron 채팅, 맞춤형 AI 다이제스트(일일/주 2회/주간), 커스텀 위젯 빌더, Claude/GPT용 MCP — 하나의 키로 30개 이상의 라이브 서비스 통합."
   },
   "pricing": {
     "suffixForever": "영구적으로",

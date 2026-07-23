@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "Váš AI analytik. Osobní zpravodajské pracoviště. Platforma, na které můžete stavět. Jeden klíč k 30+ živým službám.",
-    "proF1": "Chat WM Analyst — dotazujte se všech 30+ služeb konverzačně",
+    "proF1": "Chat Qulatron — dotazujte se všech 30+ služeb konverzačně",
     "proF2": "AI digest — denně, dvakrát denně nebo týdně — na Slack, Discord, Telegram, E-mail nebo webhook",
     "proF3": "Custom Widget Builder — HTML/CSS/JS s úpravami pomocí AI",
     "proF4": "MCP konektory — připojte WorldMonitor ke Claude, GPT nebo vlastním LLM",
@@ -60,7 +60,7 @@
     "noiseTitle": "Vězte první",
     "noiseDesc": "AIS anomálie → skok Brent → váš Slack za méně než minutu. Signál, ne titulky.",
     "fasterTitle": "Zeptejte se na cokoli",
-    "fasterDesc": "Chatujte s těmi samými 30+ službami, které vidí váš dashboard. WM Analyst, vždy aktivní.",
+    "fasterDesc": "Chatujte s těmi samými 30+ službami, které vidí váš dashboard. Qulatron, vždy aktivní.",
     "controlTitle": "Postavte cokoli",
     "controlDesc": "Custom widget builder (HTML/CSS/JS + AI) plus MCP pro vlastní AI workflow.",
     "deeperTitle": "Probuďte se informovaní",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "Zeptejte se",
-    "askItDesc": "Chat WM Analyst. Všech 30+ služeb dotazovatelných přirozeným jazykem.",
+    "askItDesc": "Chat Qulatron. Všech 30+ služeb dotazovatelných přirozeným jazykem.",
     "subscribeIt": "Odebírejte",
     "subscribeItDesc": "AI digest ve vašem tempu: denně, dvakrát denně nebo týdně. Slack, Discord, Telegram, E-mail, webhook.",
     "buildOnIt": "Stavte na tom",
@@ -337,9 +337,9 @@
   "soonBadge": "Brzy",
   "meta": {
     "title": "World Monitor Pro — AI analytik, osobní inteligentní plocha, MCP pro Claude a GPT",
-    "description": "Geopolitická vrstva AI. Ptejte se na ni, přihlaste se k ní, vytvářejte na ní. Chat WM Analyst přes 30+ živých služeb, denní, dvakrát denní nebo týdenní AI přehled doručovaný do Slack, Discord, Telegram, Email nebo webhooku, vlastní tvůrce widgetů (HTML/CSS/JS + AI) a MCP konektory pro Claude, GPT a vlastní LLM.",
+    "description": "Geopolitická vrstva AI. Ptejte se na ni, přihlaste se k ní, vytvářejte na ní. Chat Qulatron přes 30+ živých služeb, denní, dvakrát denní nebo týdenní AI přehled doručovaný do Slack, Discord, Telegram, Email nebo webhooku, vlastní tvůrce widgetů (HTML/CSS/JS + AI) a MCP konektory pro Claude, GPT a vlastní LLM.",
     "ogTitle": "World Monitor Pro — Geopolitická vrstva AI",
-    "ogDescription": "Ptejte se na ni, přihlaste se k ní, vytvářejte na ní. Chat WM Analyst, AI přehled podle vašeho harmonogramu (denně, dvakrát denně nebo týdně), vlastní tvůrce widgetů a MCP pro Claude/GPT — přes 30+ živých služeb pod jedním klíčem."
+    "ogDescription": "Ptejte se na ni, přihlaste se k ní, vytvářejte na ní. Chat Qulatron, AI přehled podle vašeho harmonogramu (denně, dvakrát denně nebo týdně), vlastní tvůrce widgetů a MCP pro Claude/GPT — přes 30+ živých služeb pod jedním klíčem."
   },
   "pricing": {
     "suffixForever": "navždy",

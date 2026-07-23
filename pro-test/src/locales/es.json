@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "Tu analista de IA. Una mesa de inteligencia personal. Una plataforma sobre la que construir. Una clave para 30+ servicios en vivo.",
-    "proF1": "Chat WM Analyst — consulta los 30+ servicios de forma conversacional",
+    "proF1": "Chat Qulatron — consulta los 30+ servicios de forma conversacional",
     "proF2": "Resumen de IA — diario, dos veces al día o semanal — a Slack, Discord, Telegram, Email o webhook",
     "proF3": "Constructor de widgets personalizados — HTML/CSS/JS con modificación asistida por IA",
     "proF4": "Conectores MCP — conecta WorldMonitor a Claude, GPT o LLMs personalizados",
@@ -60,7 +60,7 @@
     "noiseTitle": "Entérate primero",
     "noiseDesc": "Anomalía AIS → subida del Brent → tu Slack en menos de un minuto. Señal, no titulares.",
     "fasterTitle": "Pregunta cualquier cosa",
-    "fasterDesc": "Chatea con los mismos 30+ servicios que ve tu panel. WM Analyst, siempre activo.",
+    "fasterDesc": "Chatea con los mismos 30+ servicios que ve tu panel. Qulatron, siempre activo.",
     "controlTitle": "Construye cualquier cosa",
     "controlDesc": "Constructor de widgets personalizados (HTML/CSS/JS + IA) más MCP para tus propios flujos de IA.",
     "deeperTitle": "Despierta informado",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "Pregúntale",
-    "askItDesc": "Chat WM Analyst. Los 30+ servicios consultables en lenguaje natural.",
+    "askItDesc": "Chat Qulatron. Los 30+ servicios consultables en lenguaje natural.",
     "subscribeIt": "Suscríbete",
     "subscribeItDesc": "Resumen de IA a tu cadencia: diario, dos veces al día o semanal. Slack, Discord, Telegram, Email, webhook.",
     "buildOnIt": "Construye sobre ella",
@@ -337,9 +337,9 @@
   "soonBadge": "Próximamente",
   "meta": {
     "title": "World Monitor Pro — Analista de IA, Centro de Inteligencia Personal, MCP para Claude y GPT",
-    "description": "La capa de IA geopolítica. Pregúntale, suscríbete, construye sobre ella. Chat WM Analyst en 30+ servicios en directo, un resumen de IA entregado diariamente, dos veces al día o semanalmente en Slack, Discord, Telegram, correo electrónico o webhook, un constructor de widgets personalizado (HTML/CSS/JS + IA) y conectores MCP para Claude, GPT y LLMs personalizados.",
+    "description": "La capa de IA geopolítica. Pregúntale, suscríbete, construye sobre ella. Chat Qulatron en 30+ servicios en directo, un resumen de IA entregado diariamente, dos veces al día o semanalmente en Slack, Discord, Telegram, correo electrónico o webhook, un constructor de widgets personalizado (HTML/CSS/JS + IA) y conectores MCP para Claude, GPT y LLMs personalizados.",
     "ogTitle": "World Monitor Pro — La Capa de IA Geopolítica",
-    "ogDescription": "Pregúntale, suscríbete, construye sobre ella. Chat WM Analyst, un resumen de IA según tu horario (diario, dos veces al día o semanal), constructor de widgets personalizado y MCP para Claude/GPT — en 30+ servicios en directo bajo una única clave."
+    "ogDescription": "Pregúntale, suscríbete, construye sobre ella. Chat Qulatron, un resumen de IA según tu horario (diario, dos veces al día o semanal), constructor de widgets personalizado y MCP para Claude/GPT — en 30+ servicios en directo bajo una única clave."
   },
   "pricing": {
     "suffixForever": "por siempre",

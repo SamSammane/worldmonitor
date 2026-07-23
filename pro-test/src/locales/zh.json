@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "您的 AI 分析师。个人情报工作台。一个可以在其之上构建的平台。一把密钥通向 30+ 个实时服务。",
-    "proF1": "WM Analyst 对话 — 以对话方式查询 30+ 个服务",
+    "proF1": "Qulatron 对话 — 以对话方式查询 30+ 个服务",
     "proF2": "AI 摘要 — 每日、每日两次或每周 — 至 Slack、Discord、Telegram、邮件或 webhook",
     "proF3": "自定义小组件构建器 — HTML/CSS/JS,AI 辅助修改",
     "proF4": "MCP 连接器 — 将 WorldMonitor 接入 Claude、GPT 或自定义 LLM",
@@ -60,7 +60,7 @@
     "noiseTitle": "抢先知晓",
     "noiseDesc": "AIS 异常 → Brent 跳升 → 不到一分钟就到您的 Slack。信号,而非标题。",
     "fasterTitle": "问什么都行",
-    "fasterDesc": "与您仪表板看到的同样 30+ 个服务对话。WM Analyst,始终在线。",
+    "fasterDesc": "与您仪表板看到的同样 30+ 个服务对话。Qulatron,始终在线。",
     "controlTitle": "想造什么造什么",
     "controlDesc": "自定义小组件构建器(HTML/CSS/JS + AI)外加 MCP,用于您自己的 AI 工作流。",
     "deeperTitle": "醒来时已通晓",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "问它",
-    "askItDesc": "WM Analyst 对话。30+ 个服务皆可用自然语言查询。",
+    "askItDesc": "Qulatron 对话。30+ 个服务皆可用自然语言查询。",
     "subscribeIt": "订阅它",
     "subscribeItDesc": "AI 摘要按您的频率: 每日、每日两次或每周。Slack、Discord、Telegram、邮件、webhook。",
     "buildOnIt": "在其上构建",
@@ -337,9 +337,9 @@
   "soonBadge": "即将推出",
   "meta": {
     "title": "World Monitor Pro — AI 分析师、个人智能助手、Claude & GPT 的 MCP",
-    "description": "地缘政治 AI 层。提问、订阅、构建。WM Analyst 聊天支持 30+ 个实时服务，AI 摘要按日、两次日或周频率投送至 Slack、Discord、Telegram、Email 或 webhook，自定义小部件构建器（HTML/CSS/JS + AI），以及 Claude、GPT 和自定义 LLM 的 MCP 连接器。",
+    "description": "地缘政治 AI 层。提问、订阅、构建。Qulatron 聊天支持 30+ 个实时服务，AI 摘要按日、两次日或周频率投送至 Slack、Discord、Telegram、Email 或 webhook，自定义小部件构建器（HTML/CSS/JS + AI），以及 Claude、GPT 和自定义 LLM 的 MCP 连接器。",
     "ogTitle": "World Monitor Pro — 地缘政治 AI 层",
-    "ogDescription": "提问、订阅、构建。WM Analyst 聊天、按您的时间表（日、两次日或周）投送的 AI 摘要、自定义小部件构建器，以及 Claude/GPT 的 MCP — 跨 30+ 个实时服务，一个密钥管理。"
+    "ogDescription": "提问、订阅、构建。Qulatron 聊天、按您的时间表（日、两次日或周）投送的 AI 摘要、自定义小部件构建器，以及 Claude/GPT 的 MCP — 跨 30+ 个实时服务，一个密钥管理。"
   },
   "pricing": {
     "suffixForever": "永久",

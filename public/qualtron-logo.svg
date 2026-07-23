@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Qualtron">
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2e6ea"/>
+      <stop offset="0.35" stop-color="#8d949c"/>
+      <stop offset="0.7" stop-color="#3a3f45"/>
+      <stop offset="1" stop-color="#16181b"/>
+    </linearGradient>
+    <linearGradient id="darksteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#565c63"/>
+      <stop offset="0.5" stop-color="#26292d"/>
+      <stop offset="1" stop-color="#0c0d0f"/>
+    </linearGradient>
+    <linearGradient id="redjewel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff5a4d"/>
+      <stop offset="0.45" stop-color="#d3140e"/>
+      <stop offset="1" stop-color="#7a0505"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9a8"/>
+      <stop offset="0.5" stop-color="#d4a437"/>
+      <stop offset="1" stop-color="#8a641a"/>
+    </linearGradient>
+    <radialGradient id="eyeglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd9d0"/>
+      <stop offset="0.4" stop-color="#ff3b2f"/>
+      <stop offset="1" stop-color="#a10c06"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- side claws -->
+  <g stroke="#0c0d0f" stroke-width="4" stroke-linejoin="round">
+    <path d="M96 178 C46 210 30 276 62 330 C50 292 66 250 104 228 Z" fill="url(#darksteel)"/>
+    <path d="M62 330 C70 384 112 420 164 430 C124 404 100 372 98 334 Z" fill="url(#darksteel)"/>
+    <path d="M98 334 C112 380 148 408 196 416 C160 388 142 358 140 324 Z" fill="url(#steel)"/>
+    <path d="M416 178 C466 210 482 276 450 330 C462 292 446 250 408 228 Z" fill="url(#darksteel)"/>
+    <path d="M450 330 C442 384 400 420 348 430 C388 404 412 372 414 334 Z" fill="url(#darksteel)"/>
+    <path d="M414 334 C400 380 364 408 316 416 C352 388 370 358 372 324 Z" fill="url(#steel)"/>
+    <!-- claw tips -->
+    <path d="M164 430 L192 452 L176 420 Z" fill="url(#redjewel)"/>
+    <path d="M348 430 L320 452 L336 420 Z" fill="url(#redjewel)"/>
+  </g>
+
+  <!-- horns -->
+  <g stroke="#0c0d0f" stroke-width="4" stroke-linejoin="round">
+    <path d="M196 118 C150 84 140 52 158 24 C160 60 184 84 224 100 Z" fill="url(#redjewel)"/>
+    <path d="M316 118 C362 84 372 52 354 24 C352 60 328 84 288 100 Z" fill="url(#redjewel)"/>
+  </g>
+
+  <!-- shield body -->
+  <path d="M256 96 L360 132 L400 220 L392 330 L256 452 L120 330 L112 220 L152 132 Z"
+        fill="url(#darksteel)" stroke="#0c0d0f" stroke-width="6"/>
+  <path d="M256 112 L346 144 L382 222 L374 322 L256 430 L138 322 L130 222 L166 144 Z"
+        fill="url(#steel)" opacity="0.35"/>
+
+  <!-- helm -->
+  <g stroke="#0c0d0f" stroke-width="4" stroke-linejoin="round">
+    <path d="M256 108 L308 132 L316 178 L286 208 L226 208 L196 178 L204 132 Z" fill="url(#redjewel)"/>
+    <path d="M256 128 L292 144 L286 176 L256 196 L226 176 L220 144 Z" fill="url(#gold)"/>
+    <ellipse cx="228" cy="186" rx="14" ry="8" fill="url(#eyeglow)" filter="url(#glow)"/>
+    <ellipse cx="284" cy="186" rx="14" ry="8" fill="url(#eyeglow)" filter="url(#glow)"/>
+    <path d="M244 210 L256 236 L268 210 Z" fill="url(#gold)"/>
+  </g>
+
+  <!-- banner -->
+  <g stroke="#0c0d0f" stroke-width="4" stroke-linejoin="round">
+    <path d="M84 256 L116 240 L396 240 L428 256 L428 312 L396 328 L116 328 L84 312 Z" fill="url(#gold)"/>
+    <path d="M94 262 L120 250 L392 250 L418 262 L418 306 L392 318 L120 318 L94 306 Z" fill="url(#redjewel)"/>
+  </g>
+  <text x="256" y="302" text-anchor="middle"
+        font-family="Arial Black, Arial, sans-serif" font-size="52" font-weight="900"
+        letter-spacing="2" fill="url(#gold)" stroke="#3a2402" stroke-width="1.5">QUALTRON</text>
+
+  <!-- lower jewel -->
+  <g stroke="#0c0d0f" stroke-width="4" stroke-linejoin="round">
+    <path d="M232 352 L280 352 L296 384 L256 424 L216 384 Z" fill="url(#darksteel)"/>
+    <path d="M244 364 L268 364 L276 384 L256 404 L236 384 Z" fill="url(#redjewel)" filter="url(#glow)"/>
+  </g>
+</svg>

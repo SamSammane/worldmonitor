@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "Nhà phân tích AI của bạn. Bàn tình báo cá nhân. Một nền tảng để xây dựng trên đó. Một khóa cho 30+ dịch vụ trực tiếp.",
-    "proF1": "Chat WM Analyst — truy vấn 30+ dịch vụ theo hội thoại",
+    "proF1": "Chat Qulatron — truy vấn 30+ dịch vụ theo hội thoại",
     "proF2": "AI digest — hàng ngày, hai lần mỗi ngày hoặc hàng tuần — đến Slack, Discord, Telegram, Email hoặc webhook",
     "proF3": "Custom Widget Builder — HTML/CSS/JS với chỉnh sửa hỗ trợ AI",
     "proF4": "Bộ kết nối MCP — cắm WorldMonitor vào Claude, GPT hoặc LLM tùy chỉnh",
@@ -60,7 +60,7 @@
     "noiseTitle": "Biết đầu tiên",
     "noiseDesc": "Bất thường AIS → Brent tăng đột biến → Slack của bạn dưới một phút. Tín hiệu, không phải tiêu đề.",
     "fasterTitle": "Hỏi bất cứ điều gì",
-    "fasterDesc": "Trò chuyện với cùng 30+ dịch vụ mà bảng điều khiển của bạn thấy. WM Analyst, luôn hoạt động.",
+    "fasterDesc": "Trò chuyện với cùng 30+ dịch vụ mà bảng điều khiển của bạn thấy. Qulatron, luôn hoạt động.",
     "controlTitle": "Xây dựng bất cứ điều gì",
     "controlDesc": "Custom widget builder (HTML/CSS/JS + AI) cộng với MCP cho quy trình AI của riêng bạn.",
     "deeperTitle": "Thức dậy được thông tin đầy đủ",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "Hỏi nó",
-    "askItDesc": "Chat WM Analyst. Cả 30+ dịch vụ có thể truy vấn bằng ngôn ngữ tự nhiên.",
+    "askItDesc": "Chat Qulatron. Cả 30+ dịch vụ có thể truy vấn bằng ngôn ngữ tự nhiên.",
     "subscribeIt": "Đăng ký",
     "subscribeItDesc": "AI digest theo nhịp của bạn: hàng ngày, hai lần mỗi ngày hoặc hàng tuần. Slack, Discord, Telegram, Email, webhook.",
     "buildOnIt": "Xây dựng trên đó",
@@ -337,9 +337,9 @@
   "soonBadge": "Sắp ra mắt",
   "meta": {
     "title": "World Monitor Pro — Nhà phân tích AI, Bàn làm việc Trí tuệ Cá nhân, MCP cho Claude & GPT",
-    "description": "Lớp AI địa chính trị. Hỏi nó, đăng ký nó, xây dựng trên nó. Chat WM Analyst trên 30+ dịch vụ trực tiếp, bản tóm tắt AI gửi hàng ngày, hai lần mỗi ngày hoặc hàng tuần đến Slack, Discord, Telegram, Email hoặc webhook, trình xây dựng widget tùy chỉnh (HTML/CSS/JS + AI), và trình kết nối MCP cho Claude, GPT và LLM tùy chỉnh.",
+    "description": "Lớp AI địa chính trị. Hỏi nó, đăng ký nó, xây dựng trên nó. Chat Qulatron trên 30+ dịch vụ trực tiếp, bản tóm tắt AI gửi hàng ngày, hai lần mỗi ngày hoặc hàng tuần đến Slack, Discord, Telegram, Email hoặc webhook, trình xây dựng widget tùy chỉnh (HTML/CSS/JS + AI), và trình kết nối MCP cho Claude, GPT và LLM tùy chỉnh.",
     "ogTitle": "World Monitor Pro — Lớp AI Địa chính trị",
-    "ogDescription": "Hỏi nó, đăng ký nó, xây dựng trên nó. Chat WM Analyst, bản tóm tắt AI theo lịch của bạn (hàng ngày, hai lần mỗi ngày hoặc hàng tuần), trình xây dựng widget tùy chỉnh, và MCP cho Claude/GPT — trên 30+ dịch vụ trực tiếp dưới một khóa."
+    "ogDescription": "Hỏi nó, đăng ký nó, xây dựng trên nó. Chat Qulatron, bản tóm tắt AI theo lịch của bạn (hàng ngày, hai lần mỗi ngày hoặc hàng tuần), trình xây dựng widget tùy chỉnh, và MCP cho Claude/GPT — trên 30+ dịch vụ trực tiếp dưới một khóa."
   },
   "pricing": {
     "suffixForever": "mãi mãi",

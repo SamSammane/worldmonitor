@@ -21,7 +21,6 @@ import { hasLiveClientSession } from './services/clerk-session';
 import { PricingSection } from './components/PricingSection';
 import { SoonBadge } from './components/SoonBadge';
 import { Logo } from './components/Logo';
-import { WiredBadge } from './components/WiredBadge';
 import { Footer } from './components/Footer';
 import {
   DASHBOARD_SCREENSHOT_JPG,
@@ -29,7 +28,6 @@ import {
   DASHBOARD_SCREENSHOT_WEBP_SRCSET,
 } from './assets/dashboard-screenshot';
 import { ensureTurnstileScript } from './turnstile';
-import wiredLogo from './assets/wired-logo.svg';
 import {
   DASHBOARD_EMBED_PREVIEW_URL,
   DASHBOARD_PATH,
@@ -407,10 +405,6 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <div className="mb-4">
-            <WiredBadge />
-          </div>
-
           <h1 className="text-6xl md:text-8xl font-display font-bold tracking-tighter leading-[0.95]">
             <span className="text-wm-muted/40">{t('hero.noiseWord')}</span>
             <span className="mx-3 md:mx-5 text-wm-border/50">→</span>
@@ -450,37 +444,6 @@ const Hero = () => {
     </section>
   );
 };
-
-/* ─── 2. Social proof (current — WIRED badge already in hero) ─── */
-const SocialProof = () => (
-  <section className="border-y border-wm-border bg-wm-card/30 py-16 px-6">
-    <div className="max-w-5xl mx-auto">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center mb-12">
-        {[
-          { value: "2M+", label: t('socialProof.uniqueVisitors') },
-          { value: "421K", label: t('socialProof.peakDailyUsers') },
-          { value: "190+", label: t('socialProof.countriesReached') },
-          { value: "500+", label: t('socialProof.liveDataSources') },
-        ].map((stat, i) => (
-          <div key={i}>
-            <p className="text-3xl md:text-4xl font-display font-bold text-wm-green">{stat.value}</p>
-            <p className="text-xs font-mono text-wm-muted uppercase tracking-widest mt-1">{stat.label}</p>
-          </div>
-        ))}
-      </div>
-      <blockquote className="max-w-3xl mx-auto text-center">
-        <p className="text-lg md:text-xl text-wm-muted italic leading-relaxed">
-          "{t('socialProof.quote')}"
-        </p>
-        <footer className="mt-6 flex items-center justify-center gap-3">
-          <a href="https://www.wired.com/story/world-monitor-elie-habib/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-wm-muted hover:text-wm-text transition-colors">
-            <img src={wiredLogo} alt="WIRED" loading="lazy" className="h-5 brightness-0 invert opacity-60 hover:opacity-100 transition-opacity" />
-          </a>
-        </footer>
-      </blockquote>
-    </div>
-  </section>
-);
 
 /* ─── 3. Two-path split (new — from draft) ─── */
 const TwoPathSplit = () => (
@@ -1403,7 +1366,6 @@ export default function App() {
           <ProShowcase />
           <DeliveryDesk />
           <AudiencePersonas />
-          <SocialProof />
           <LivePreview />
           <PricingSection refCode={getRefCode()} />
           <PricingTable />

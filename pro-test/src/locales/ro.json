@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "Analistul tău IA. Un birou personal de intelligence. O platformă pe care să construiești. O cheie pentru 30+ de servicii live.",
-    "proF1": "Chat WM Analyst — interoghează cele 30+ de servicii conversațional",
+    "proF1": "Chat Qulatron — interoghează cele 30+ de servicii conversațional",
     "proF2": "Digest IA — zilnic, de două ori pe zi sau săptămânal — pe Slack, Discord, Telegram, Email sau webhook",
     "proF3": "Custom Widget Builder — HTML/CSS/JS cu modificare asistată de IA",
     "proF4": "Conectori MCP — conectează WorldMonitor la Claude, GPT sau LLM-uri proprii",
@@ -60,7 +60,7 @@
     "noiseTitle": "Află primul",
     "noiseDesc": "Anomalie AIS → salt Brent → Slack-ul tău în mai puțin de un minut. Semnal, nu titluri.",
     "fasterTitle": "Întreabă orice",
-    "fasterDesc": "Discută cu aceleași 30+ de servicii pe care le vede panoul tău. WM Analyst, mereu activ.",
+    "fasterDesc": "Discută cu aceleași 30+ de servicii pe care le vede panoul tău. Qulatron, mereu activ.",
     "controlTitle": "Construiește orice",
     "controlDesc": "Custom widget builder (HTML/CSS/JS + IA) plus MCP pentru fluxurile tale IA.",
     "deeperTitle": "Trezește-te informat",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "Întreabă-l",
-    "askItDesc": "Chat WM Analyst. Toate cele 30+ de servicii interogabile în limbaj natural.",
+    "askItDesc": "Chat Qulatron. Toate cele 30+ de servicii interogabile în limbaj natural.",
     "subscribeIt": "Abonează-te",
     "subscribeItDesc": "Digest IA în ritmul tău: zilnic, de două ori pe zi sau săptămânal. Slack, Discord, Telegram, Email, webhook.",
     "buildOnIt": "Construiește deasupra",
@@ -337,9 +337,9 @@
   "soonBadge": "În curând",
   "meta": {
     "title": "World Monitor Pro — AI Analyst, Personal Intelligence Desk, MCP pentru Claude & GPT",
-    "description": "Stratul geopolitic AI. Întrebați-l, abonați-vă la el, construiți pe el. WM Analyst chat în 30+ servicii live, un rezumat AI livrat zilnic, de două ori pe zi sau săptămânal către Slack, Discord, Telegram, Email sau webhook, un constructor de widget-uri personalizat (HTML/CSS/JS + AI) și conectori MCP pentru Claude, GPT și LLM-uri personalizate.",
+    "description": "Stratul geopolitic AI. Întrebați-l, abonați-vă la el, construiți pe el. Qulatron chat în 30+ servicii live, un rezumat AI livrat zilnic, de două ori pe zi sau săptămânal către Slack, Discord, Telegram, Email sau webhook, un constructor de widget-uri personalizat (HTML/CSS/JS + AI) și conectori MCP pentru Claude, GPT și LLM-uri personalizate.",
     "ogTitle": "World Monitor Pro — Stratul Geopolitic AI",
-    "ogDescription": "Întrebați-l, abonați-vă la el, construiți pe el. WM Analyst chat, un rezumat AI după programul dvs. (zilnic, de două ori pe zi sau săptămânal), constructor de widget-uri personalizat și MCP pentru Claude/GPT — în 30+ servicii live sub o singură cheie."
+    "ogDescription": "Întrebați-l, abonați-vă la el, construiți pe el. Qulatron chat, un rezumat AI după programul dvs. (zilnic, de două ori pe zi sau săptămânal), constructor de widget-uri personalizat și MCP pentru Claude/GPT — în 30+ servicii live sub o singură cheie."
   },
   "pricing": {
     "suffixForever": "pentru totdeauna",

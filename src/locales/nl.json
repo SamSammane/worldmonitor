@@ -1637,7 +1637,7 @@
       "tripDays": "Reisdagen"
     },
     "chatAnalyst": {
-      "infoTooltip": "<strong>WM Analist</strong> AI-analist met live context over geopolitieke, markt-, militaire en economische domeinen. Aangedreven door Claude met realtime data uit actieve WorldMonitor-feeds."
+      "infoTooltip": "<strong>WM Analist</strong> AI-analist met live context over geopolitieke, markt-, militaire en economische domeinen. Aangedreven door Qulatron met realtime data uit actieve WorldMonitor-feeds."
     },
     "cotPositioning": {
       "infoTooltip": "<strong>CFTC COT Positionering</strong> Commitments of Traders-rapport: nettopositie van commerciëlen, grote speculanten en kleine handelaren in grondstof- en financiële futures. Wekelijks gepubliceerd (vrijdag). Bron: CFTC."

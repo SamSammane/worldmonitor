@@ -1851,7 +1851,7 @@
       "tripDays": "Jours de voyage"
     },
     "chatAnalyst": {
-      "infoTooltip": "<strong>Analyste WM</strong> Analyste IA avec contexte en direct dans les domaines géopolitique, marchés, militaire et économique. Alimenté par Claude avec des données en temps réel issues des flux actifs de WorldMonitor."
+      "infoTooltip": "<strong>Analyste WM</strong> Analyste IA avec contexte en direct dans les domaines géopolitique, marchés, militaire et économique. Alimenté par Qulatron avec des données en temps réel issues des flux actifs de WorldMonitor."
     },
     "cotPositioning": {
       "infoTooltip": "<strong>Positionnement CFTC COT</strong> Rapport des engagements des opérateurs : positionnement net des commerciaux, grands spéculateurs et petits opérateurs sur les contrats à terme de matières premières et financiers. Publié chaque semaine (vendredi). Source : CFTC."

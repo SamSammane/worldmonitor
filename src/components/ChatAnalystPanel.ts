@@ -115,7 +115,7 @@ export class ChatAnalystPanel extends Panel {
   constructor() {
     super({
       id: 'chat-analyst',
-      title: 'WM Analyst',
+      title: 'Qulatron',
       premium: 'locked',
       defaultRowSpan: 2,
       infoTooltip: t('components.chatAnalyst.infoTooltip'),
@@ -160,7 +160,7 @@ export class ChatAnalystPanel extends Panel {
     const inputRow = h('div', { className: 'chat-analyst-input-row' });
     const textarea = document.createElement('textarea');
     textarea.className = 'chat-analyst-input';
-    textarea.placeholder = 'Ask the analyst...';
+    textarea.placeholder = 'Ask Qulatron...';
     textarea.rows = 2;
     this.inputEl = textarea;
 
@@ -312,16 +312,16 @@ export class ChatAnalystPanel extends Panel {
 
   private showWelcome(): void {
     const bubble = h('div', { className: 'chat-msg chat-msg-assistant' },
-      h('div', { className: 'chat-msg-label' }, 'ANALYST'),
+      h('div', { className: 'chat-msg-label' }, 'QULATRON'),
       h('div', { className: 'chat-msg-body' },
-        'Ready. I have live context across geopolitical, market, military, and economic domains. Ask anything.',
+        'Qulatron ready. I have live context across geopolitical, market, military, and economic domains. Ask anything.',
       ),
     );
     replaceChildren(this.messagesEl, bubble);
   }
 
   private appendMessage(role: 'user' | 'assistant', content: string): void {
-    const label = role === 'user' ? 'YOU' : 'ANALYST';
+    const label = role === 'user' ? 'YOU' : 'QULATRON';
     const body = h('div', { className: 'chat-msg-body' });
     if (role === 'assistant') {
       this.renderMarkdownDeferred(body, content);
@@ -343,7 +343,7 @@ export class ChatAnalystPanel extends Panel {
       h('span', { className: 'chat-streaming-dot' }),
     );
     const bubble = h('div', { className: 'chat-msg chat-msg-assistant chat-msg-streaming' },
-      h('div', { className: 'chat-msg-label' }, 'ANALYST'),
+      h('div', { className: 'chat-msg-label' }, 'QULATRON'),
       body,
     );
     this.messagesEl.appendChild(bubble);
@@ -634,7 +634,7 @@ export class ChatAnalystPanel extends Panel {
 
   private exportChat(): void {
     if (this.history.length === 0) return;
-    const lines = [`# WM Analyst Session\n*Exported: ${new Date().toISOString()}*\n`];
+    const lines = [`# Qulatron Session\n*Exported: ${new Date().toISOString()}*\n`];
     for (const msg of this.history) {
       const role = msg.role === 'user' ? '**You**' : '**Analyst**';
       lines.push(`\n${role}:\n${msg.content}`);

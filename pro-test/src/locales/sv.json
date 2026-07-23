@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "Din AI-analytiker. Ett personligt intelligence-skrivbord. En plattform att bygga på. En nyckel till 30+ live-tjänster.",
-    "proF1": "WM Analyst-chatt — fråga alla 30+ tjänster konversationellt",
+    "proF1": "Qulatron-chatt — fråga alla 30+ tjänster konversationellt",
     "proF2": "AI-digest — dagligen, två gånger om dagen eller veckovis — till Slack, Discord, Telegram, E-post eller webhook",
     "proF3": "Custom Widget Builder — HTML/CSS/JS med AI-assisterad modifiering",
     "proF4": "MCP-konnektorer — koppla WorldMonitor till Claude, GPT, egna LLM:er",
@@ -60,7 +60,7 @@
     "noiseTitle": "Vet först",
     "noiseDesc": "AIS-anomali → Brent-spik → din Slack på mindre än en minut. Signal, inte rubriker.",
     "fasterTitle": "Fråga vad som helst",
-    "fasterDesc": "Chatta med samma 30+ tjänster som din dashboard ser. WM Analyst, alltid på.",
+    "fasterDesc": "Chatta med samma 30+ tjänster som din dashboard ser. Qulatron, alltid på.",
     "controlTitle": "Bygg vad som helst",
     "controlDesc": "Custom widget builder (HTML/CSS/JS + AI) plus MCP för dina egna AI-flöden.",
     "deeperTitle": "Vakna informerad",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "Fråga det",
-    "askItDesc": "WM Analyst-chatt. Alla 30+ tjänster frågbara på naturligt språk.",
+    "askItDesc": "Qulatron-chatt. Alla 30+ tjänster frågbara på naturligt språk.",
     "subscribeIt": "Prenumerera",
     "subscribeItDesc": "AI-digest i din takt: dagligen, två gånger om dagen eller veckovis. Slack, Discord, Telegram, E-post, webhook.",
     "buildOnIt": "Bygg på det",
@@ -337,9 +337,9 @@
   "soonBadge": "Snart",
   "meta": {
     "title": "World Monitor Pro — AI-analytiker, personaliserat informationscenter, MCP för Claude & GPT",
-    "description": "Geopolitikens AI-skikt. Fråga den, prenumerera på den, bygga på den. WM Analyst-chatt över 30+ live-tjänster, en AI-sammanfattning levererad dagligen, två gånger dagligen eller veckovis till Slack, Discord, Telegram, E-post eller webhook, en anpassad widgetbyggare (HTML/CSS/JS + AI) och MCP-kopplingar för Claude, GPT och anpassade LLM:er.",
+    "description": "Geopolitikens AI-skikt. Fråga den, prenumerera på den, bygga på den. Qulatron-chatt över 30+ live-tjänster, en AI-sammanfattning levererad dagligen, två gånger dagligen eller veckovis till Slack, Discord, Telegram, E-post eller webhook, en anpassad widgetbyggare (HTML/CSS/JS + AI) och MCP-kopplingar för Claude, GPT och anpassade LLM:er.",
     "ogTitle": "World Monitor Pro — Geopolitikens AI-skikt",
-    "ogDescription": "Fråga den, prenumerera på den, bygga på den. WM Analyst-chatt, en AI-sammanfattning enligt ditt schema (dagligen, två gånger dagligen eller veckovis), anpassad widgetbyggare och MCP för Claude/GPT — över 30+ live-tjänster under en nyckel."
+    "ogDescription": "Fråga den, prenumerera på den, bygga på den. Qulatron-chatt, en AI-sammanfattning enligt ditt schema (dagligen, två gånger dagligen eller veckovis), anpassad widgetbyggare och MCP för Claude/GPT — över 30+ live-tjänster under en nyckel."
   },
   "pricing": {
     "suffixForever": "för alltid",

@@ -28,7 +28,7 @@
   "twoPath": {
     "proTitle": "World Monitor Pro",
     "proDesc": "Yapay zekâ analistiniz. Kişisel istihbarat masası. Üzerine inşa edebileceğiniz bir platform. 30+ canlı hizmet için tek anahtar.",
-    "proF1": "WM Analyst sohbet — 30+ hizmeti sohbet ederek sorgulayın",
+    "proF1": "Qulatron sohbet — 30+ hizmeti sohbet ederek sorgulayın",
     "proF2": "AI özeti — günlük, günde iki kez veya haftalık — Slack, Discord, Telegram, E-posta veya webhook'a",
     "proF3": "Custom Widget Builder — HTML/CSS/JS ile AI destekli düzenleme",
     "proF4": "MCP konnektörleri — WorldMonitor'u Claude, GPT veya kendi LLM'lerinize bağlayın",
@@ -60,7 +60,7 @@
     "noiseTitle": "İlk siz bilin",
     "noiseDesc": "AIS anomalisi → Brent sıçraması → Slack'iniz bir dakikadan kısa sürede. Sinyal, manşet değil.",
     "fasterTitle": "Her şeyi sorun",
-    "fasterDesc": "Kontrol panelinizin gördüğü aynı 30+ hizmetle sohbet edin. WM Analyst, her zaman aktif.",
+    "fasterDesc": "Kontrol panelinizin gördüğü aynı 30+ hizmetle sohbet edin. Qulatron, her zaman aktif.",
     "controlTitle": "Her şeyi inşa edin",
     "controlDesc": "Custom widget builder (HTML/CSS/JS + AI) ve kendi AI iş akışlarınız için MCP.",
     "deeperTitle": "Bilgili uyanın",
@@ -68,7 +68,7 @@
   },
   "pillars": {
     "askIt": "Ona sorun",
-    "askItDesc": "WM Analyst sohbet. 30+ hizmet, doğal dilde sorgulanabilir.",
+    "askItDesc": "Qulatron sohbet. 30+ hizmet, doğal dilde sorgulanabilir.",
     "subscribeIt": "Abone olun",
     "subscribeItDesc": "AI özeti sizin temponuzda: günlük, günde iki kez veya haftalık. Slack, Discord, Telegram, E-posta, webhook.",
     "buildOnIt": "Üzerine inşa edin",
@@ -337,9 +337,9 @@
   "soonBadge": "Yakında",
   "meta": {
     "title": "World Monitor Pro — AI Analisti, Kişisel İstihbarat Masası, Claude & GPT için MCP",
-    "description": "Jeopolitik AI katmanı. Sor, abone ol, geliştir. WM Analyst sohbeti 30+ canlı hizmet arasında, günlük, haftada iki kez veya haftalık olarak Slack, Discord, Telegram, E-posta veya webhook'a teslim edilen AI özeti, özel widget oluşturucu (HTML/CSS/JS + AI) ve Claude, GPT ve özel LLM'ler için MCP bağlantıları.",
+    "description": "Jeopolitik AI katmanı. Sor, abone ol, geliştir. Qulatron sohbeti 30+ canlı hizmet arasında, günlük, haftada iki kez veya haftalık olarak Slack, Discord, Telegram, E-posta veya webhook'a teslim edilen AI özeti, özel widget oluşturucu (HTML/CSS/JS + AI) ve Claude, GPT ve özel LLM'ler için MCP bağlantıları.",
     "ogTitle": "World Monitor Pro — Jeopolitik AI Katmanı",
-    "ogDescription": "Sor, abone ol, geliştir. WM Analyst sohbeti, planlandığı şekilde AI özeti (günlük, haftada iki kez veya haftalık), özel widget oluşturucu ve Claude/GPT için MCP — 30+ canlı hizmet arasında tek bir anahtar altında."
+    "ogDescription": "Sor, abone ol, geliştir. Qulatron sohbeti, planlandığı şekilde AI özeti (günlük, haftada iki kez veya haftalık), özel widget oluşturucu ve Claude/GPT için MCP — 30+ canlı hizmet arasında tek bir anahtar altında."
   },
   "pricing": {
     "suffixForever": "sonsuza dek",
