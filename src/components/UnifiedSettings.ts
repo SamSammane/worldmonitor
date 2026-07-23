@@ -212,7 +212,7 @@ export class UnifiedSettings {
       const panelItem = target.closest<HTMLElement>('.panel-toggle-item');
       if (panelItem?.dataset.panel) {
         if (panelItem.dataset.proLocked) {
-          window.open('/pro', '_blank', 'noopener,noreferrer');
+          window.open('https://www.qualtron.world/#waitlist', '_blank', 'noopener,noreferrer');
           return;
         }
         this.toggleDraftPanel(panelItem.dataset.panel);
@@ -689,7 +689,7 @@ export class UnifiedSettings {
         <div class="upgrade-pro-section upgrade-pro-fallback">
           <div class="upgrade-pro-title">Upgrade to Pro</div>
           <div class="upgrade-pro-desc">Unlock all panels, AI analysis, and priority data refresh.</div>
-          <a class="upgrade-pro-cta-link" href="/pro" target="_blank" rel="noopener">View plans →</a>
+          <a class="upgrade-pro-cta-link" href="https://www.qualtron.world/#waitlist" target="_blank" rel="noopener">View plans →</a>
         </div>
       `;
     }

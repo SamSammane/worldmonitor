@@ -2122,9 +2122,9 @@
     },
     "proBanner": {
       "badge": "PRO",
-      "headline": "Το Pro είναι ενεργό",
+      "headline": "Pro is coming",
       "tagline": "Περισσότερο σήμα, λιγότερος θόρυβος. Περισσότερες AI Briefings. Ένας γεωπολιτικός και ερευνητής μετοχών μόνο για εσάς.",
-      "cta": "Αναβάθμιση σε Pro →",
+      "cta": "Join the waitlist",
       "dismiss": "Απόρριψη"
     },
     "checkoutFailureBanner": {

@@ -2136,9 +2136,9 @@
     },
     "proBanner": {
       "badge": "PRO",
-      "headline": "Pro został uruchomiony",
+      "headline": "Pro is coming",
       "tagline": "Więcej sygnału, mniej szumu. Więcej briefów AI. Geopolityk i analityk akcji tylko dla Ciebie.",
-      "cta": "Przejdź na Pro →",
+      "cta": "Join the waitlist",
       "dismiss": "Odrzuć"
     },
     "checkoutFailureBanner": {

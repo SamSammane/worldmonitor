@@ -475,6 +475,18 @@ export class EventHandlerManager implements AppModule {
     wireSearchButton('searchBtn', 'desktop');
     wireSearchButton('mobileSearchBtn', 'mobile');
     wireSearchButton('searchMobileFab', 'fab');
+    // Qulatron header button: enable + scroll to the AI analyst panel.
+    const qulatronBtn = document.getElementById('qulatronBtn');
+    if (qulatronBtn && !this.registeredSearchButtons.has('qulatronBtn')) {
+      qulatronBtn.addEventListener('click', () => {
+        this.enablePanelById('chat-analyst');
+        requestAnimationFrame(() => {
+          document.querySelector('[data-panel="chat-analyst"]')
+            ?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+      });
+      this.registeredSearchButtons.add('qulatronBtn');
+    }
     if (!this.boundSearchKeyHandler) {
       this.boundSearchKeyHandler = (e: KeyboardEvent) => {
         // !e.shiftKey so Cmd/Ctrl+Shift+K (e.g. Firefox web console) doesn't

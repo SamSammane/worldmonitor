@@ -2122,9 +2122,9 @@
     },
     "proBanner": {
       "badge": "PRO",
-      "headline": "Pro已上线",
+      "headline": "Pro is coming",
       "tagline": "更多信号，更少噪音。更多AI简报。专属于您的地缘政治和股票研究员。",
-      "cta": "升级到Pro →",
+      "cta": "Join the waitlist",
       "dismiss": "关闭"
     },
     "checkoutFailureBanner": {

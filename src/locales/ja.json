@@ -2122,9 +2122,9 @@
     },
     "proBanner": {
       "badge": "PRO",
-      "headline": "Proがローンチしました",
+      "headline": "Pro is coming",
       "tagline": "より多くのシグナル、ノイズ削減。AI ブリーフィングの強化。あなたのための地政学&エクイティリサーチャー。",
-      "cta": "Pro にアップグレード →",
+      "cta": "Join the waitlist",
       "dismiss": "閉じる"
     },
     "checkoutFailureBanner": {

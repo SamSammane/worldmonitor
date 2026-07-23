@@ -2150,9 +2150,9 @@
     },
     "proBanner": {
       "badge": "PRO",
-      "headline": "تم إطلاق Pro",
+      "headline": "Pro is coming",
       "tagline": "إشارة أكثر، ضوضاء أقل. إحاطات ذكية أكثر. باحث في الجيوسياسة والأسهم لك فقط.",
-      "cta": "ترقية إلى Pro →",
+      "cta": "Join the waitlist",
       "dismiss": "رفض"
     },
     "checkoutFailureBanner": {

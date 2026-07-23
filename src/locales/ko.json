@@ -2122,9 +2122,9 @@
     },
     "proBanner": {
       "badge": "PRO",
-      "headline": "Pro 출시됨",
+      "headline": "Pro is coming",
       "tagline": "더 많은 신호, 더 적은 잡음. 더 많은 AI 브리핑. 당신만을 위한 지정학 및 주식 연구원입니다.",
-      "cta": "Pro로 업그레이드 →",
+      "cta": "Join the waitlist",
       "dismiss": "닫기"
     },
     "checkoutFailureBanner": {

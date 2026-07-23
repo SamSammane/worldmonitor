@@ -776,6 +776,7 @@ export class PanelLayoutManager implements AppModule {
           </button>
         </div>
         <div class="header-right">
+          <button class="search-btn qulatron-btn" id="qulatronBtn" title="Ask Qulatron — AI analyst">🤖 Qulatron</button>
           <button class="search-btn" id="searchBtn"><kbd>⌘K</kbd> ${t('header.search')}</button>
           ${this.ctx.isDesktopApp ? '' : `<button class="copy-link-btn" id="copyLinkBtn">${t('header.copyLink')}</button>`}
           ${this.ctx.isDesktopApp ? '' : `<button class="copy-link-btn embed-link-btn" id="embedLinkBtn">${t('header.embed')}</button>`}

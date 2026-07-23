@@ -2136,9 +2136,9 @@
     },
     "proBanner": {
       "badge": "PRO",
-      "headline": "Pro запущен",
+      "headline": "Pro is coming",
       "tagline": "Больше сигналов, меньше шума. Больше AI-брифингов. Геополитический и инвестиционный исследователь специально для вас.",
-      "cta": "Перейти на Pro →",
+      "cta": "Join the waitlist",
       "dismiss": "Отклонить"
     },
     "checkoutFailureBanner": {

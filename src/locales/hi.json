@@ -2190,9 +2190,9 @@
     },
     "proBanner": {
       "badge": "PRO",
-      "headline": "प्रो शुरू हो गया है",
+      "headline": "Pro is coming",
       "tagline": "अधिक संकेत, कम शोर। अधिक AI संक्षेप। आपके लिए भू-राजनीतिक और शेयर अनुसंधान।",
-      "cta": "प्रो में अपग्रेड करें →",
+      "cta": "Join the waitlist",
       "dismiss": "बंद करें"
     },
     "checkoutFailureBanner": {

@@ -1890,7 +1890,7 @@ export class App {
         .closest<HTMLElement>('[data-action]')
         ?.dataset.action;
       if (clickedAction === 'upgrade') {
-        window.open('/pro#pricing', '_blank', 'noopener,noreferrer');
+        window.open('https://www.qualtron.world/#waitlist', '_blank', 'noopener,noreferrer');
         if (this.followedCountriesCapDropToastTimer !== null) {
           window.clearTimeout(this.followedCountriesCapDropToastTimer);
           this.followedCountriesCapDropToastTimer = null;

@@ -104,7 +104,7 @@ export function showProBanner(container: HTMLElement): void {
     <span class="pro-banner-text">
       <strong>${t('components.proBanner.headline')}</strong> — ${t('components.proBanner.tagline')}
     </span>
-    <a class="pro-banner-cta" href="/pro#pricing">${t('components.proBanner.cta')}</a>
+    <a class="pro-banner-cta" href="https://www.qualtron.world/#waitlist">${t('components.proBanner.cta')}</a>
     <button class="pro-banner-close" aria-label="${t('components.proBanner.dismiss')}">×</button>
   `, "legacy direct innerHTML migration"));
 

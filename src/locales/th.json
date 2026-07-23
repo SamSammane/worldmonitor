@@ -2122,9 +2122,9 @@
     },
     "proBanner": {
       "badge": "PRO",
-      "headline": "Pro เปิดตัวแล้ว",
+      "headline": "Pro is coming",
       "tagline": "สัญญาณมากขึ้น เสียงน้อยลง AI Briefings มากขึ้น นักวิจัยด้านภูมิรัฐศาสตร์และหุ้นส่วนตัวของคุณ",
-      "cta": "อัปเกรดเป็น Pro →",
+      "cta": "Join the waitlist",
       "dismiss": "ปิด"
     },
     "checkoutFailureBanner": {

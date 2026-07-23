@@ -1909,9 +1909,9 @@
     },
     "proBanner": {
       "badge": "PRO",
-      "headline": "Pro är lanserad",
+      "headline": "Pro is coming",
       "tagline": "Mer signal, mindre brus. Fler AI-uppdateringar. En geopolitisk och aktieanalytiker bara för dig.",
-      "cta": "Uppgradera till Pro →",
+      "cta": "Join the waitlist",
       "dismiss": "Stäng"
     },
     "checkoutFailureBanner": {

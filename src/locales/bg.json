@@ -2122,9 +2122,9 @@
     },
     "proBanner": {
       "badge": "PRO",
-      "headline": "Pro е пуснат",
+      "headline": "Pro is coming",
       "tagline": "Повече сигнали, по-малко шум. Повече AI брифинги. Геополитически и инвестиционен анализатор точно за вас.",
-      "cta": "Надстройка към Pro →",
+      "cta": "Join the waitlist",
       "dismiss": "Отхвърляне"
     },
     "checkoutFailureBanner": {
