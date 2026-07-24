@@ -902,7 +902,7 @@ export class PanelLayoutManager implements AppModule {
         <nav>
           <a href="https://www.qualtron.world/" target="_blank" rel="noopener">Qualtron</a>
           <a href="https://www.qualtron.world/#waitlist" target="_blank" rel="noopener">Pro Waitlist</a>
-          <a href="mailto:info@qgi.dev">Contact</a>
+          <a href="mailto:info@qgi.dev">Source</a>
         </nav>
         <span class="site-footer-copy">&copy; ${new Date().getFullYear()} Qualtron — World Monitor</span>
       </footer>
